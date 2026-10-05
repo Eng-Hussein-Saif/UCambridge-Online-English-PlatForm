@@ -1,0 +1,18 @@
+# Ignore everything by default so the project source code stays out of the portfolio repo.
+*
+
+# Keep only the portfolio/documentation files.
+!README.md
+!docs/
+!docs/architecture.md
+!docs/authentication.md
+!docs/authorization.md
+!docs/api-reference.md
+!docs/database.md
+!docs/features.md
+!docs/data-flows.md
+!docs/deployment.md
+!docs/engineering-decisions.md
+
+# Keep the ignore file itself local to this repository.
+!.gitignore
